@@ -64,10 +64,10 @@ class Club extends \EspritForAll\BackEndBundle\Entity\Club implements \Doctrine\
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'libelle', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'description', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'pathImg', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'pathCouverture', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'id', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'user'];
+            return ['__isInitialized__', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'libelle', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'apropos', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'notreHistoire', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'description', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'pathImg', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'pathCouverture', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'id', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'user'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'libelle', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'description', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'pathImg', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'pathCouverture', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'id', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'user'];
+        return ['__isInitialized__', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'libelle', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'apropos', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'notreHistoire', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'description', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'pathImg', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'pathCouverture', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'id', '' . "\0" . 'EspritForAll\\BackEndBundle\\Entity\\Club' . "\0" . 'user'];
     }
 
     /**

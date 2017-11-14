@@ -27,13 +27,9 @@ class appProdProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBundle\R
         $context = $this->context;
         $request = $this->request;
 
-        // espritforall_backend_default_index
-        if (rtrim($pathinfo, '/') === '') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'espritforall_backend_default_index');
-            }
-
-            return array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\DefaultController::indexAction',  '_route' => 'espritforall_backend_default_index',);
+        // front_end_homepage
+        if ($pathinfo === '/home') {
+            return array (  '_controller' => 'FrontEndBundle\\Controller\\DefaultController::indexAction',  '_route' => 'front_end_homepage',);
         }
 
         if (0 === strpos($pathinfo, '/log')) {

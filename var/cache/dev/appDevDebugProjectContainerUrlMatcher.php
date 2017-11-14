@@ -100,13 +100,52 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        // espritforall_backend_default_index
-        if (rtrim($pathinfo, '/') === '') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'espritforall_backend_default_index');
+        // login_root
+        if ($pathinfo === '/login') {
+            return array (  '_controller' => 'FrontEndBundle\\Controller\\LoginController::indexAction',  '_route' => 'login_root',);
+        }
+
+        // front_end_homepage
+        if ($pathinfo === '/home') {
+            return array (  '_controller' => 'FrontEndBundle\\Controller\\DefaultController::indexAction',  '_route' => 'front_end_homepage',);
+        }
+
+        // front_end_resto
+        if ($pathinfo === '/restauration') {
+            return array (  '_controller' => 'FrontEndBundle\\Controller\\RestaurentController::indexAction',  '_route' => 'front_end_resto',);
+        }
+
+        if (0 === strpos($pathinfo, '/c')) {
+            // front_end_club
+            if ($pathinfo === '/club') {
+                return array (  '_controller' => 'FrontEndBundle\\Controller\\ClubController::indexAction',  '_route' => 'front_end_club',);
             }
 
-            return array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\DefaultController::indexAction',  '_route' => 'espritforall_backend_default_index',);
+            // front_end_covoiturage
+            if ($pathinfo === '/covoiturage') {
+                return array (  '_controller' => 'FrontEndBundle\\Controller\\CovoiturageController::indexAction',  '_route' => 'front_end_covoiturage',);
+            }
+
+        }
+
+        // front_end_revision
+        if ($pathinfo === '/revision') {
+            return array (  '_controller' => 'FrontEndBundle\\Controller\\RevisionController::indexAction',  '_route' => 'front_end_revision',);
+        }
+
+        // esprit_Acceuilpage
+        if ($pathinfo === '/back') {
+            return array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\BackEndAcceuilController::BackAction',  '_route' => 'esprit_Acceuilpage',);
+        }
+
+        // AfficheClubs
+        if ($pathinfo === '/listclub') {
+            return array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\ClubController::ListClubAction',  '_route' => 'AfficheClubs',);
+        }
+
+        // UpdateClub
+        if (0 === strpos($pathinfo, '/updateclub') && preg_match('#^/updateclub/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'UpdateClub')), array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\ClubController::UpdateClubAction',));
         }
 
         if (0 === strpos($pathinfo, '/log')) {

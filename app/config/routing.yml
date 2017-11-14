@@ -1,6 +1,9 @@
+front_end:
+    resource: "@FrontEndBundle/Resources/config/routing.yml"
+    prefix:   /
+
 esprit_for_all_back_end:
-    resource: "@EspritForAllBackEndBundle/Controller/"
-    type:     annotation
+    resource: "@EspritForAllBackEndBundle/Resources/config/routing.yml"
     prefix:   /
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
