@@ -16,11 +16,11 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_43da2e04b00065b5016164375e0ee8a525322e1af9c662cada05e4e7826f5723 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_43da2e04b00065b5016164375e0ee8a525322e1af9c662cada05e4e7826f5723->enter($__internal_43da2e04b00065b5016164375e0ee8a525322e1af9c662cada05e4e7826f5723_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FrontEndBundle::RestaurentLayout.html.twig"));
+        $__internal_f75cd9ad62da53e61f7f242cbfd2159c529b20176f8f50c2d63cf6b4dfac25b9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_f75cd9ad62da53e61f7f242cbfd2159c529b20176f8f50c2d63cf6b4dfac25b9->enter($__internal_f75cd9ad62da53e61f7f242cbfd2159c529b20176f8f50c2d63cf6b4dfac25b9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FrontEndBundle::RestaurentLayout.html.twig"));
 
-        $__internal_2662abaea18203a462c738c4f978f45077354a3f92a1cb4a72b0cc7899af3290 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2662abaea18203a462c738c4f978f45077354a3f92a1cb4a72b0cc7899af3290->enter($__internal_2662abaea18203a462c738c4f978f45077354a3f92a1cb4a72b0cc7899af3290_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FrontEndBundle::RestaurentLayout.html.twig"));
+        $__internal_9207c32ec55face317e13b7a9dea637afcacc3016a072911df917c49b85ada28 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9207c32ec55face317e13b7a9dea637afcacc3016a072911df917c49b85ada28->enter($__internal_9207c32ec55face317e13b7a9dea637afcacc3016a072911df917c49b85ada28_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FrontEndBundle::RestaurentLayout.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -33,59 +33,59 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
     <title>Laboom - Food & Restaurant Bistro HTML Template</title>
     <link rel=\"stylesheet\" href=\"";
         // line 9
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/bootstrap/bootstrap.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/bootstrap/bootstrap.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 10
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/bootstrap/datepicker.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/bootstrap/datepicker.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 11
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/font-awesome/font-awesome.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/font-awesome/font-awesome.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 12
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/form-field/jquery.formstyler.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/form-field/jquery.formstyler.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 13
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/revolution-plugin/extralayers.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/revolution-plugin/extralayers.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 14
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/revolution-plugin/settings.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/revolution-plugin/settings.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 15
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/owl-carousel/owl.carousel.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/owl-carousel/owl.carousel.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 16
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/owl-carousel/owl.theme.default.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/owl-carousel/owl.theme.default.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 17
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/slick-slider/slick-theme.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/slick-slider/slick-theme.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 18
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/magnific/magnific-popup.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/magnific/magnific-popup.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 19
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/scroll-bar/jquery.mCustomScrollbar.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/scroll-bar/jquery.mCustomScrollbar.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 20
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/animation/animate.min.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/animation/animate.min.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 21
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodcss/theme.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/css/theme.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 22
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodcss/responsive.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/css/responsive.css"), "html", null, true);
         echo "\">
     <!--[if lt IE 9]>
     <script src=\"https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js\"></script>
@@ -100,7 +100,7 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
         <div class=\"frame\">
             <img src=\"";
         // line 34
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/Preloader.gif"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/Preloader.gif"), "html", null, true);
         echo "\" alt=\"Laboom\" />
         </div>
     </div>
@@ -115,7 +115,7 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                         <div class=\"header-top-left\">
                             <a href=\"#\" class=\"top-cell\"><img src=\"";
         // line 46
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/fon.png"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/fon.png"), "html", null, true);
         echo "\" alt=\"\"> <span>123-456-7890</span></a>
                             <a href=\"#\" class=\"top-email\"><span>support@laboom.com</span></a>
                         </div>
@@ -149,15 +149,17 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                     <div class=\"header-info\">
                         <div class=\"header-info-inner\">
                             <div class=\"book-table header-collect book-md\">
-                                <a href=\"#\" data-toggle=\"modal\" data-target=\"#booktable\"><img src=\"";
+                                <a href=\"";
         // line 79
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/icon-table.png"), "html", null, true);
-        echo "\" alt=\"\">Book a Table</a>
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("resto_menu_categories");
+        echo "\"><img src=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/icon_table.png"), "html", null, true);
+        echo "\" alt=\"\">Our Menu</a>
                             </div>
                             <div class=\"shop-cart header-collect\">
                                 <a href=\"#\"><img src=\"";
         // line 82
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/icon-basket.png"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/icon-basket.png"), "html", null, true);
         echo "\" alt=\"\">2 items - \$ 20.89</a>
                                 <div class=\"cart-wrap\">
                                     <div class=\"cart-blog\">
@@ -165,7 +167,7 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                                             <div class=\"cart-item-left\">
                                                 <img src=\"";
         // line 87
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/img59.png"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/img59.png"), "html", null, true);
         echo "\" alt=\"\">
                                             </div>
                                             <div class=\"cart-item-right\">
@@ -178,7 +180,7 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                                             <div class=\"cart-item-left\">
                                                 <img src=\"";
         // line 97
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/img60.png"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/img60.png"), "html", null, true);
         echo "\" alt=\"\">
                                             </div>
                                             <div class=\"cart-item-right\">
@@ -196,7 +198,10 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                                             </div>
                                         </div>
                                         <div class=\"cart-btn\">
-                                            <a href=\"#\" class=\"btn-black view\">VIEW ALL</a>
+                                            <a href=\"";
+        // line 114
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("resto_shop_cart");
+        echo "\" class=\"btn-black view\">VIEW ALL</a>
                                             <a href=\"#\" class=\"btn-main checkout\">CHECK OUT</a>
                                         </div>
                                     </div>
@@ -221,170 +226,34 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                     <div class=\"book-table header-collect book-sm\">
                         <a href=\"#\" data-toggle=\"modal\" data-target=\"#booktable\"><img src=\"";
         // line 137
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/icon-table.png"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/icon-table.png"), "html", null, true);
         echo "\" alt=\"\">Book a Table</a>
                     </div>
                     <div class=\"menu-main\">
                         <ul>
                             <li class=\"has-child\">
-                                <a href=\"index.html\">Home</a>
-                                <ul class=\"drop-nav\">
-                                    <li><a href=\"index.html\">Home Page 1</a></li>
-                                    <li><a href=\"homepage1.html\">Home Page 2</a></li>
-                                    <li><a href=\"homepage2.html\">Home Page 3</a></li>
-                                    <li><a href=\"homepage3.html\">Home Page 4</a></li>
-                                    <li><a href=\"homepage4.html\">Home Page 5</a></li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"#\">Headers</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"index.html\">Header 1</a></li>
-                                            <li><a href=\"homepage1.html\">Header 2</a></li>
-                                            <li><a href=\"homepage2.html\">Header 3</a></li>
-                                            <li><a href=\"homepage3.html\">Header 4</a></li>
-                                            <li><a href=\"homepage4.html\">Header 5</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <a href=\"";
+        // line 142
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("front_end_resto_home");
+        echo "\">Home</a>
                             </li>
-                            <li class=\"mega-menu\">
-                                <a href=\"#\">Menu</a>
-                                <ul class=\"drop-nav\">
-                                    <li>
-                                        <div class=\"drop-mega-part\">
-                                            <div class=\"row\">
-                                                <div class=\"col-md-5 col-sm-12 col-xs-12\">
-                                                    <span class=\"mega-title\">MAIN MENU</span>
-                                                    <div class=\"row\">
-                                                        <div class=\"col-md-6 col-sm-12 col-xs-12\">
-                                                            <ul>
-                                                                <li><a href=\"#\">Ready Player One</a></li>
-                                                                <li><a href=\"#\">Ernest Cline</a></li>
-                                                                <li><a href=\"#\">Ender's Game</a></li>
-            <li><a href=\"#\">Orson Scott Card</a></li>
-            <li><a href=\"#\">Americam Gods</a></li>
-            <li><a href=\"#\">Neil Gaiman</a></li>
-            <li><a href=\"#\">The Great Gatsby</a></li>
-            </ul>
-            </div>
-            <div class=\"col-md-6 col-sm-12 col-xs-12\">
-            <ul>
-            <li><a href=\"#\">Ready Player One</a></li>
-            <li><a href=\"#\">Ernest Cline</a></li>
-            <li><a href=\"#\">Ender's Game</a></li>
-                                                                <li><a href=\"#\">Orson Scott Card</a></li>
-                                                                <li><a href=\"#\">Americam Gods</a></li>
-                                                                <li><a href=\"#\">Neil Gaiman</a></li>
-                                                                <li><a href=\"#\">The Great Gatsby</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class=\"col-md-2 col-sm-12 col-xs-12\">
-                                                    <span class=\"mega-title\">IMAGE</span>
-                                                    <img src=\"";
-        // line 196
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/img13.png"), "html", null, true);
-        echo "\" alt=\"\">
-                                                </div>
-                                                <div class=\"col-md-5 col-sm-12 col-xs-12\">
-                                                    <div class=\"mega-preview\">
-                                                        <span class=\"mega-title\">DESCRIPTION</span>
-                                                        <p>This column can contain whatever you like! Add text, shortcodes, or HTML.Various versions have evolved over the years, sometimes by accident, sometimes on</p>
-                                                    </div>
-                                                    <div class=\"mega-position\"><img src=\"";
-        // line 203
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/img14.png"), "html", null, true);
-        echo "\" alt=\"\"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
+
+
                             <li class=\"has-child\">
-                                <a href=\"shop.html\">Shop</a>
-                                <ul class=\"drop-nav\">
-                                    <li><a href=\"shop.html\">Shop Page</a></li>
-                                    <li><a href=\"shop_single.html\">Shop Single</a></li>
-                                    <li><a href=\"shop_cart.html\">Shop Cart</a></li>
-                                    <li><a href=\"shop_checkout.html\">Shop Checkout</a></li>
-                                    <li><a href=\"order_complete.html\">Order Complete</a></li>
-                                    <li><a href=\"track_order.html\">Track Your Order</a></li>
-                                    <li><a href=\"login_register.html\">Login & Register</a></li>
-                                </ul>
+                                <a href=\"";
+        // line 147
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("resto_menu_categories");
+        echo "\">Menu</a>
+
                             </li>
-                            <li class=\"has-child\">
-                                <a href=\"#\">Pages</a>
-                                <ul class=\"drop-nav\">
-                                    <li><a href=\"about.html\">About Us</a></li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"service1.html\">Services</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"service1.html\">Service 1</a></li>
-                                            <li><a href=\"service2.html\">Service 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"gallery1.html\">Gallery</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"gallery1.html\">Gallery 2 Columns</a></li>
-                                            <li><a href=\"gallery2.html\">Gallery 3 Columns</a></li>
-                                            <li><a href=\"gallery3.html\">Gallery 4 Columns</a></li>
-                                            <li><a href=\"gallery_masonry.html\">Gallery Masonry</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"menu1.html\">Menu</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"menu1.html\">Menu 1</a></li>
-                                            <li><a href=\"menu2.html\">Menu 2</a></li>
-                                            <li><a href=\"menu3.html\">Menu 3</a></li>
-                                            <li><a href=\"menu4.html\">Menu 4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"team.html\">Team</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"team.html\">Team List</a></li>
-                                            <li><a href=\"team_single.html\">Team Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"contact1.html\">Contact</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"contact1.html\">Contact 1</a></li>
-                                            <li><a href=\"contact2.html\">Contact 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href=\"terms_condition.html\">Terms & Condition</a></li>
-                                    <li><a href=\"faq.html\">FAQ</a></li>
-                                    <li><a href=\"404.html\">404 Error</a></li>
-                                </ul>
-                            </li>
-                            <li class=\"has-child\">
-                                <a href=\"blog_2col.html\">Blog</a>
-                                <ul class=\"drop-nav\">
-                                    <li><a href=\"blog_list.html\">Blog List</a></li>
-                                    <li><a href=\"blog_2col.html\">Blog 2 Columns</a></li>
-                                    <li><a href=\"blog_full.html\">Blog Full Width</a></li>
-                                    <li><a href=\"blog_left_sidebar.html\">Blog Left Sidebar</a></li>
-                                    <li><a href=\"blog_right_sidebar.html\">Blog Right Sidebar</a></li>
-                                    <li><a href=\"blog_single.html\">Blog Single</a></li>
-                                </ul>
-                            </li>
-                            <li class=\"has-child\">
-                                <a href=\"contact1.html\">Contact</a>
-                                <ul class=\"drop-nav\">
-                                    <li><a href=\"contact1.html\">Contact 1</a></li>
-                                    <li><a href=\"contact2.html\">Contact 2</a></li>
-                                </ul>
-                            </li>
+
+
                         </ul>
                     </div>
                     <div class=\"logo\">
                         <a href=\"index.html\"><img src=\"";
-        // line 291
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/logo.png"), "html", null, true);
+        // line 155
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/logo.png"), "html", null, true);
         echo "\" alt=\"\"></a>
                     </div>
                 </div>
@@ -395,9 +264,9 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
 
 
     ";
-        // line 300
+        // line 164
         $this->displayBlock('body', $context, $blocks);
-        // line 302
+        // line 166
         echo "
 
 
@@ -406,8 +275,8 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
         <div class=\"footer-part wow fadeInDown\" data-wow-duration=\"1000ms\" data-wow-delay=\"300ms\">
             <div class=\"icon-default icon-dark\">
                 <img src=\"";
-        // line 309
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/footer-logo.png"), "html", null, true);
+        // line 173
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/footer-logo.png"), "html", null, true);
         echo "\" alt=\"\">
             </div>
             <div class=\"container\">
@@ -442,8 +311,8 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
             <div class=\"icon-find\">
                 <a href=\"#\">
                     <img src=\"";
-        // line 342
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/location.png"), "html", null, true);
+        // line 206
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/location.png"), "html", null, true);
         echo "\" alt=\"\">
                     <span>Find us on Map</span>
                 </a>
@@ -452,8 +321,8 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                 <div class=\"icon-find-location\">
                     <a href=\"#\">
                         <img src=\"";
-        // line 349
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Foodimages/location.png"), "html", null, true);
+        // line 213
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/images/location.png"), "html", null, true);
         echo "\" alt=\"\">
             <span>Find us on Map</span>
             </a>
@@ -516,99 +385,104 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
 <!-- End Book Table -->
 </div>
 <!-- Back To Top Arrow -->
+
+
+
 <a href=\"#\" class=\"top-arrow\"></a>
 <script src=\"";
-        // line 412
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodjs/jquery.min.js"), "html", null, true);
+        // line 279
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/js/jquery.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 413
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/bootstrap/bootstrap.min.js"), "html", null, true);
+        // line 280
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/bootstrap/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 414
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/bootstrap/bootstrap-datepicker.js"), "html", null, true);
+        // line 281
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/bootstrap/bootstrap-datepicker.js"), "html", null, true);
         echo "\"></script>
 <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAf6My1Jfdi1Fmj-DUmX_CcNOZ6FLkQ4Os\"></script>
 <script src=\"";
-        // line 416
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/form-field/jquery.formstyler.min.js"), "html", null, true);
+        // line 283
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/form-field/jquery.formstyler.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 417
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/revolution-plugin/jquery.themepunch.plugins.min.js"), "html", null, true);
+        // line 284
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/revolution-plugin/jquery.themepunch.plugins.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 418
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/revolution-plugin/jquery.themepunch.revolution.min.js"), "html", null, true);
+        // line 285
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/revolution-plugin/jquery.themepunch.revolution.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 419
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/owl-carousel/owl.carousel.min.js"), "html", null, true);
+        // line 286
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/owl-carousel/owl.carousel.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 420
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/slick-slider/slick.min.js"), "html", null, true);
+        // line 287
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/slick-slider/slick.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 421
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/isotop/isotop.js"), "html", null, true);
+        // line 288
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/isotop/isotop.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 422
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/isotop/packery-mode.pkgd.min.js"), "html", null, true);
+        // line 289
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/isotop/packery-mode.pkgd.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 423
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/magnific/jquery.magnific-popup.min.js"), "html", null, true);
+        // line 290
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/magnific/jquery.magnific-popup.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 424
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/scroll-bar/jquery.mCustomScrollbar.concat.min.js"), "html", null, true);
+        // line 291
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/scroll-bar/jquery.mCustomScrollbar.concat.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 425
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/animation/wow.min.js"), "html", null, true);
+        // line 292
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/animation/wow.min.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 426
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodplugin/parallax/jquery.stellar.js"), "html", null, true);
+        // line 293
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/plugin/parallax/jquery.stellar.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 427
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodjs/app.js"), "html", null, true);
+        // line 294
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/js/app.js"), "html", null, true);
         echo "\"></script>
 <script src=\"";
-        // line 428
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("Foodjs/script.js"), "html", null, true);
+        // line 295
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("FrontEnd/Food/js/script.js"), "html", null, true);
         echo "\"></script>
+
+
 </body>
 
 </html>";
         
-        $__internal_43da2e04b00065b5016164375e0ee8a525322e1af9c662cada05e4e7826f5723->leave($__internal_43da2e04b00065b5016164375e0ee8a525322e1af9c662cada05e4e7826f5723_prof);
+        $__internal_f75cd9ad62da53e61f7f242cbfd2159c529b20176f8f50c2d63cf6b4dfac25b9->leave($__internal_f75cd9ad62da53e61f7f242cbfd2159c529b20176f8f50c2d63cf6b4dfac25b9_prof);
 
         
-        $__internal_2662abaea18203a462c738c4f978f45077354a3f92a1cb4a72b0cc7899af3290->leave($__internal_2662abaea18203a462c738c4f978f45077354a3f92a1cb4a72b0cc7899af3290_prof);
+        $__internal_9207c32ec55face317e13b7a9dea637afcacc3016a072911df917c49b85ada28->leave($__internal_9207c32ec55face317e13b7a9dea637afcacc3016a072911df917c49b85ada28_prof);
 
     }
 
-    // line 300
+    // line 164
     public function block_body($context, array $blocks = array())
     {
-        $__internal_aa58c438eb796939c5dc27b5a5f0b52c0d0276aca406d3d17b54b904fa9eeab4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_aa58c438eb796939c5dc27b5a5f0b52c0d0276aca406d3d17b54b904fa9eeab4->enter($__internal_aa58c438eb796939c5dc27b5a5f0b52c0d0276aca406d3d17b54b904fa9eeab4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_e795b1564f722f19be18b6aedec2a9d3f4e0aa94ff1a190b67c6e672975ef63c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e795b1564f722f19be18b6aedec2a9d3f4e0aa94ff1a190b67c6e672975ef63c->enter($__internal_e795b1564f722f19be18b6aedec2a9d3f4e0aa94ff1a190b67c6e672975ef63c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_627bcb6203af73df29a3f54623530b3fa4bab2078e36fe7eebebc99e63dd4f12 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_627bcb6203af73df29a3f54623530b3fa4bab2078e36fe7eebebc99e63dd4f12->enter($__internal_627bcb6203af73df29a3f54623530b3fa4bab2078e36fe7eebebc99e63dd4f12_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_e9a9985a62face3cb4bd2bee3611de39f74264cc35e53ad0642edaaa58d99ee7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e9a9985a62face3cb4bd2bee3611de39f74264cc35e53ad0642edaaa58d99ee7->enter($__internal_e9a9985a62face3cb4bd2bee3611de39f74264cc35e53ad0642edaaa58d99ee7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 301
+        // line 165
         echo "    ";
         
-        $__internal_627bcb6203af73df29a3f54623530b3fa4bab2078e36fe7eebebc99e63dd4f12->leave($__internal_627bcb6203af73df29a3f54623530b3fa4bab2078e36fe7eebebc99e63dd4f12_prof);
+        $__internal_e9a9985a62face3cb4bd2bee3611de39f74264cc35e53ad0642edaaa58d99ee7->leave($__internal_e9a9985a62face3cb4bd2bee3611de39f74264cc35e53ad0642edaaa58d99ee7_prof);
 
         
-        $__internal_aa58c438eb796939c5dc27b5a5f0b52c0d0276aca406d3d17b54b904fa9eeab4->leave($__internal_aa58c438eb796939c5dc27b5a5f0b52c0d0276aca406d3d17b54b904fa9eeab4_prof);
+        $__internal_e795b1564f722f19be18b6aedec2a9d3f4e0aa94ff1a190b67c6e672975ef63c->leave($__internal_e795b1564f722f19be18b6aedec2a9d3f4e0aa94ff1a190b67c6e672975ef63c_prof);
 
     }
 
@@ -624,7 +498,7 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
 
     public function getDebugInfo()
     {
-        return array (  606 => 301,  597 => 300,  583 => 428,  579 => 427,  575 => 426,  571 => 425,  567 => 424,  563 => 423,  559 => 422,  555 => 421,  551 => 420,  547 => 419,  543 => 418,  539 => 417,  535 => 416,  530 => 414,  526 => 413,  522 => 412,  456 => 349,  446 => 342,  410 => 309,  401 => 302,  399 => 300,  387 => 291,  296 => 203,  286 => 196,  224 => 137,  181 => 97,  168 => 87,  160 => 82,  154 => 79,  118 => 46,  103 => 34,  88 => 22,  84 => 21,  80 => 20,  76 => 19,  72 => 18,  68 => 17,  64 => 16,  60 => 15,  56 => 14,  52 => 13,  48 => 12,  44 => 11,  40 => 10,  36 => 9,  26 => 1,);
+        return array (  480 => 165,  471 => 164,  455 => 295,  451 => 294,  447 => 293,  443 => 292,  439 => 291,  435 => 290,  431 => 289,  427 => 288,  423 => 287,  419 => 286,  415 => 285,  411 => 284,  407 => 283,  402 => 281,  398 => 280,  394 => 279,  325 => 213,  315 => 206,  279 => 173,  270 => 166,  268 => 164,  256 => 155,  245 => 147,  237 => 142,  229 => 137,  203 => 114,  183 => 97,  170 => 87,  162 => 82,  154 => 79,  118 => 46,  103 => 34,  88 => 22,  84 => 21,  80 => 20,  76 => 19,  72 => 18,  68 => 17,  64 => 16,  60 => 15,  56 => 14,  52 => 13,  48 => 12,  44 => 11,  40 => 10,  36 => 9,  26 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -645,20 +519,20 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
     <title>Laboom - Food & Restaurant Bistro HTML Template</title>
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/bootstrap/bootstrap.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/bootstrap/datepicker.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/font-awesome/font-awesome.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/form-field/jquery.formstyler.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/revolution-plugin/extralayers.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/revolution-plugin/settings.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/owl-carousel/owl.carousel.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/owl-carousel/owl.theme.default.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/slick-slider/slick-theme.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/magnific/magnific-popup.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/scroll-bar/jquery.mCustomScrollbar.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodplugin/animation/animate.min.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodcss/theme.css') }}\">
-    <link rel=\"stylesheet\" href=\"{{ asset('Foodcss/responsive.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/bootstrap/bootstrap.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/bootstrap/datepicker.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/font-awesome/font-awesome.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/form-field/jquery.formstyler.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/revolution-plugin/extralayers.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/revolution-plugin/settings.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/owl-carousel/owl.carousel.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/owl-carousel/owl.theme.default.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/slick-slider/slick-theme.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/magnific/magnific-popup.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/scroll-bar/jquery.mCustomScrollbar.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/plugin/animation/animate.min.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/css/theme.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('FrontEnd/Food/css/responsive.css') }}\">
     <!--[if lt IE 9]>
     <script src=\"https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js\"></script>
     <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>
@@ -670,7 +544,7 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
 <div id=\"pre-loader\">
     <div class=\"loader-holder\">
         <div class=\"frame\">
-            <img src=\"{{ asset('FrontEnd/Foodimages/Preloader.gif') }}\" alt=\"Laboom\" />
+            <img src=\"{{ asset('FrontEnd/Food/images/Preloader.gif') }}\" alt=\"Laboom\" />
         </div>
     </div>
 </div>
@@ -682,7 +556,7 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                 <div class=\"container\">
                     <div class=\"header-top-inner\">
                         <div class=\"header-top-left\">
-                            <a href=\"#\" class=\"top-cell\"><img src=\"{{ asset('FrontEnd/Foodimages/fon.png') }}\" alt=\"\"> <span>123-456-7890</span></a>
+                            <a href=\"#\" class=\"top-cell\"><img src=\"{{ asset('FrontEnd/Food/images/fon.png') }}\" alt=\"\"> <span>123-456-7890</span></a>
                             <a href=\"#\" class=\"top-email\"><span>support@laboom.com</span></a>
                         </div>
                         <div class=\"header-top-right\">
@@ -715,15 +589,15 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                     <div class=\"header-info\">
                         <div class=\"header-info-inner\">
                             <div class=\"book-table header-collect book-md\">
-                                <a href=\"#\" data-toggle=\"modal\" data-target=\"#booktable\"><img src=\"{{ asset('FrontEnd/Foodimages/icon-table.png') }}\" alt=\"\">Book a Table</a>
+                                <a href=\"{{ path('resto_menu_categories') }}\"><img src=\"{{ asset('FrontEnd/Food/images/icon_table.png') }}\" alt=\"\">Our Menu</a>
                             </div>
                             <div class=\"shop-cart header-collect\">
-                                <a href=\"#\"><img src=\"{{ asset('FrontEnd/Foodimages/icon-basket.png') }}\" alt=\"\">2 items - \$ 20.89</a>
+                                <a href=\"#\"><img src=\"{{ asset('FrontEnd/Food/images/icon-basket.png') }}\" alt=\"\">2 items - \$ 20.89</a>
                                 <div class=\"cart-wrap\">
                                     <div class=\"cart-blog\">
                                         <div class=\"cart-item\">
                                             <div class=\"cart-item-left\">
-                                                <img src=\"{{ asset('FrontEnd/Foodimages/img59.png') }}\" alt=\"\">
+                                                <img src=\"{{ asset('FrontEnd/Food/images/img59.png') }}\" alt=\"\">
                                             </div>
                                             <div class=\"cart-item-right\">
                                                 <h6>Caramel Chesse Cake</h6>
@@ -733,7 +607,7 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                                         </div>
                                         <div class=\"cart-item\">
                                             <div class=\"cart-item-left\">
-                                                <img src=\"{{ asset('FrontEnd/Foodimages/img60.png') }}\" alt=\"\">
+                                                <img src=\"{{ asset('FrontEnd/Food/images/img60.png') }}\" alt=\"\">
                                             </div>
                                             <div class=\"cart-item-right\">
                                                 <h6>Caramel Chesse Cake</h6>
@@ -750,7 +624,7 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                                             </div>
                                         </div>
                                         <div class=\"cart-btn\">
-                                            <a href=\"#\" class=\"btn-black view\">VIEW ALL</a>
+                                            <a href=\"{{ path('resto_shop_cart') }}\" class=\"btn-black view\">VIEW ALL</a>
                                             <a href=\"#\" class=\"btn-main checkout\">CHECK OUT</a>
                                         </div>
                                     </div>
@@ -773,161 +647,25 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
                         </a>
                     </div>
                     <div class=\"book-table header-collect book-sm\">
-                        <a href=\"#\" data-toggle=\"modal\" data-target=\"#booktable\"><img src=\"{{ asset('FrontEnd/Foodimages/icon-table.png') }}\" alt=\"\">Book a Table</a>
+                        <a href=\"#\" data-toggle=\"modal\" data-target=\"#booktable\"><img src=\"{{ asset('FrontEnd/Food/images/icon-table.png') }}\" alt=\"\">Book a Table</a>
                     </div>
                     <div class=\"menu-main\">
                         <ul>
                             <li class=\"has-child\">
-                                <a href=\"index.html\">Home</a>
-                                <ul class=\"drop-nav\">
-                                    <li><a href=\"index.html\">Home Page 1</a></li>
-                                    <li><a href=\"homepage1.html\">Home Page 2</a></li>
-                                    <li><a href=\"homepage2.html\">Home Page 3</a></li>
-                                    <li><a href=\"homepage3.html\">Home Page 4</a></li>
-                                    <li><a href=\"homepage4.html\">Home Page 5</a></li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"#\">Headers</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"index.html\">Header 1</a></li>
-                                            <li><a href=\"homepage1.html\">Header 2</a></li>
-                                            <li><a href=\"homepage2.html\">Header 3</a></li>
-                                            <li><a href=\"homepage3.html\">Header 4</a></li>
-                                            <li><a href=\"homepage4.html\">Header 5</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                                <a href=\"{{ path ('front_end_resto_home') }}\">Home</a>
                             </li>
-                            <li class=\"mega-menu\">
-                                <a href=\"#\">Menu</a>
-                                <ul class=\"drop-nav\">
-                                    <li>
-                                        <div class=\"drop-mega-part\">
-                                            <div class=\"row\">
-                                                <div class=\"col-md-5 col-sm-12 col-xs-12\">
-                                                    <span class=\"mega-title\">MAIN MENU</span>
-                                                    <div class=\"row\">
-                                                        <div class=\"col-md-6 col-sm-12 col-xs-12\">
-                                                            <ul>
-                                                                <li><a href=\"#\">Ready Player One</a></li>
-                                                                <li><a href=\"#\">Ernest Cline</a></li>
-                                                                <li><a href=\"#\">Ender's Game</a></li>
-            <li><a href=\"#\">Orson Scott Card</a></li>
-            <li><a href=\"#\">Americam Gods</a></li>
-            <li><a href=\"#\">Neil Gaiman</a></li>
-            <li><a href=\"#\">The Great Gatsby</a></li>
-            </ul>
-            </div>
-            <div class=\"col-md-6 col-sm-12 col-xs-12\">
-            <ul>
-            <li><a href=\"#\">Ready Player One</a></li>
-            <li><a href=\"#\">Ernest Cline</a></li>
-            <li><a href=\"#\">Ender's Game</a></li>
-                                                                <li><a href=\"#\">Orson Scott Card</a></li>
-                                                                <li><a href=\"#\">Americam Gods</a></li>
-                                                                <li><a href=\"#\">Neil Gaiman</a></li>
-                                                                <li><a href=\"#\">The Great Gatsby</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class=\"col-md-2 col-sm-12 col-xs-12\">
-                                                    <span class=\"mega-title\">IMAGE</span>
-                                                    <img src=\"{{ asset('FrontEnd/Foodimages/img13.png') }}\" alt=\"\">
-                                                </div>
-                                                <div class=\"col-md-5 col-sm-12 col-xs-12\">
-                                                    <div class=\"mega-preview\">
-                                                        <span class=\"mega-title\">DESCRIPTION</span>
-                                                        <p>This column can contain whatever you like! Add text, shortcodes, or HTML.Various versions have evolved over the years, sometimes by accident, sometimes on</p>
-                                                    </div>
-                                                    <div class=\"mega-position\"><img src=\"{{ asset('FrontEnd/Foodimages/img14.png') }}\" alt=\"\"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </li>
+
+
                             <li class=\"has-child\">
-                                <a href=\"shop.html\">Shop</a>
-                                <ul class=\"drop-nav\">
-                                    <li><a href=\"shop.html\">Shop Page</a></li>
-                                    <li><a href=\"shop_single.html\">Shop Single</a></li>
-                                    <li><a href=\"shop_cart.html\">Shop Cart</a></li>
-                                    <li><a href=\"shop_checkout.html\">Shop Checkout</a></li>
-                                    <li><a href=\"order_complete.html\">Order Complete</a></li>
-                                    <li><a href=\"track_order.html\">Track Your Order</a></li>
-                                    <li><a href=\"login_register.html\">Login & Register</a></li>
-                                </ul>
+                                <a href=\"{{ path ('resto_menu_categories') }}\">Menu</a>
+
                             </li>
-                            <li class=\"has-child\">
-                                <a href=\"#\">Pages</a>
-                                <ul class=\"drop-nav\">
-                                    <li><a href=\"about.html\">About Us</a></li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"service1.html\">Services</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"service1.html\">Service 1</a></li>
-                                            <li><a href=\"service2.html\">Service 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"gallery1.html\">Gallery</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"gallery1.html\">Gallery 2 Columns</a></li>
-                                            <li><a href=\"gallery2.html\">Gallery 3 Columns</a></li>
-                                            <li><a href=\"gallery3.html\">Gallery 4 Columns</a></li>
-                                            <li><a href=\"gallery_masonry.html\">Gallery Masonry</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"menu1.html\">Menu</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"menu1.html\">Menu 1</a></li>
-                                            <li><a href=\"menu2.html\">Menu 2</a></li>
-                                            <li><a href=\"menu3.html\">Menu 3</a></li>
-                                            <li><a href=\"menu4.html\">Menu 4</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"team.html\">Team</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"team.html\">Team List</a></li>
-                                            <li><a href=\"team_single.html\">Team Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class=\"drop-has-child\">
-                                        <a href=\"contact1.html\">Contact</a>
-                                        <ul class=\"drop-nav\">
-                                            <li><a href=\"contact1.html\">Contact 1</a></li>
-                                            <li><a href=\"contact2.html\">Contact 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href=\"terms_condition.html\">Terms & Condition</a></li>
-                                    <li><a href=\"faq.html\">FAQ</a></li>
-                                    <li><a href=\"404.html\">404 Error</a></li>
-                                </ul>
-                            </li>
-                            <li class=\"has-child\">
-                                <a href=\"blog_2col.html\">Blog</a>
-                                <ul class=\"drop-nav\">
-                                    <li><a href=\"blog_list.html\">Blog List</a></li>
-                                    <li><a href=\"blog_2col.html\">Blog 2 Columns</a></li>
-                                    <li><a href=\"blog_full.html\">Blog Full Width</a></li>
-                                    <li><a href=\"blog_left_sidebar.html\">Blog Left Sidebar</a></li>
-                                    <li><a href=\"blog_right_sidebar.html\">Blog Right Sidebar</a></li>
-                                    <li><a href=\"blog_single.html\">Blog Single</a></li>
-                                </ul>
-                            </li>
-                            <li class=\"has-child\">
-                                <a href=\"contact1.html\">Contact</a>
-                                <ul class=\"drop-nav\">
-                                    <li><a href=\"contact1.html\">Contact 1</a></li>
-                                    <li><a href=\"contact2.html\">Contact 2</a></li>
-                                </ul>
-                            </li>
+
+
                         </ul>
                     </div>
                     <div class=\"logo\">
-                        <a href=\"index.html\"><img src=\"{{ asset('FrontEnd/Foodimages/logo.png') }}\" alt=\"\"></a>
+                        <a href=\"index.html\"><img src=\"{{ asset('FrontEnd/Food/images/logo.png') }}\" alt=\"\"></a>
                     </div>
                 </div>
             </div>
@@ -945,7 +683,7 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
     <footer>
         <div class=\"footer-part wow fadeInDown\" data-wow-duration=\"1000ms\" data-wow-delay=\"300ms\">
             <div class=\"icon-default icon-dark\">
-                <img src=\"{{ asset('FrontEnd/Foodimages/footer-logo.png') }}\" alt=\"\">
+                <img src=\"{{ asset('FrontEnd/Food/images/footer-logo.png') }}\" alt=\"\">
             </div>
             <div class=\"container\">
                 <div class=\"footer-inner\">
@@ -978,14 +716,14 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
             </div>
             <div class=\"icon-find\">
                 <a href=\"#\">
-                    <img src=\"{{ asset('FrontEnd/Foodimages/location.png') }}\" alt=\"\">
+                    <img src=\"{{ asset('FrontEnd/Food/images/location.png') }}\" alt=\"\">
                     <span>Find us on Map</span>
                 </a>
             </div>
             <div class=\"location-footer-map\">
                 <div class=\"icon-find-location\">
                     <a href=\"#\">
-                        <img src=\"{{ asset('FrontEnd/Foodimages/location.png') }}\" alt=\"\">
+                        <img src=\"{{ asset('FrontEnd/Food/images/location.png') }}\" alt=\"\">
             <span>Find us on Map</span>
             </a>
         </div>
@@ -1047,24 +785,29 @@ class __TwigTemplate_9fb4f754636c486b8e62649bfab9990d31fe5cc908fc74868e60baded05
 <!-- End Book Table -->
 </div>
 <!-- Back To Top Arrow -->
+
+
+
 <a href=\"#\" class=\"top-arrow\"></a>
-<script src=\"{{ asset('Foodjs/jquery.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/bootstrap/bootstrap.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/bootstrap/bootstrap-datepicker.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/js/jquery.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/bootstrap/bootstrap.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/bootstrap/bootstrap-datepicker.js') }}\"></script>
 <script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyAf6My1Jfdi1Fmj-DUmX_CcNOZ6FLkQ4Os\"></script>
-<script src=\"{{ asset('Foodplugin/form-field/jquery.formstyler.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/revolution-plugin/jquery.themepunch.plugins.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/revolution-plugin/jquery.themepunch.revolution.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/owl-carousel/owl.carousel.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/slick-slider/slick.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/isotop/isotop.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/isotop/packery-mode.pkgd.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/magnific/jquery.magnific-popup.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/scroll-bar/jquery.mCustomScrollbar.concat.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/animation/wow.min.js') }}\"></script>
-<script src=\"{{ asset('Foodplugin/parallax/jquery.stellar.js') }}\"></script>
-<script src=\"{{ asset('Foodjs/app.js') }}\"></script>
-<script src=\"{{ asset('Foodjs/script.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/form-field/jquery.formstyler.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/revolution-plugin/jquery.themepunch.plugins.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/revolution-plugin/jquery.themepunch.revolution.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/owl-carousel/owl.carousel.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/slick-slider/slick.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/isotop/isotop.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/isotop/packery-mode.pkgd.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/magnific/jquery.magnific-popup.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/scroll-bar/jquery.mCustomScrollbar.concat.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/animation/wow.min.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/plugin/parallax/jquery.stellar.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/js/app.js') }}\"></script>
+<script src=\"{{ asset('FrontEnd/Food/js/script.js') }}\"></script>
+
+
 </body>
 
 </html>", "FrontEndBundle::RestaurentLayout.html.twig", "C:\\xampp\\htdocs\\www\\Esprit4All_Symfony\\src\\FrontEndBundle/Resources/views/RestaurentLayout.html.twig");
