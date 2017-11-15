@@ -177,6 +177,36 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             return $this->mergeDefaults(array_replace($matches, array('_route' => 'UpdateClub')), array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\ClubController::UpdateClubAction',));
         }
 
+        // AjoutClub
+        if ($pathinfo === '/ajoutclub') {
+            return array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\ClubController::AjoutClubAction',  '_route' => 'AjoutClub',);
+        }
+
+        // DeleteClub
+        if (0 === strpos($pathinfo, '/deleteclub') && preg_match('#^/deleteclub/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'DeleteClub')), array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\ClubController::DeleteClubAction',));
+        }
+
+        // AfficheEvenement
+        if ($pathinfo === '/listEvenement') {
+            return array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\EvenementController::ListEvenementAction',  '_route' => 'AfficheEvenement',);
+        }
+
+        // AjoutEvenement
+        if ($pathinfo === '/ajoutEvent') {
+            return array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\EvenementController::AjoutEvenementAction',  '_route' => 'AjoutEvenement',);
+        }
+
+        // UpdateEvenement
+        if (0 === strpos($pathinfo, '/updateEvenement') && preg_match('#^/updateEvenement/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'UpdateEvenement')), array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\EvenementController::UpdateEvenementAction',));
+        }
+
+        // DeleteEvenement
+        if (0 === strpos($pathinfo, '/deleteEvenement') && preg_match('#^/deleteEvenement/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'DeleteEvenement')), array (  '_controller' => 'EspritForAll\\BackEndBundle\\Controller\\EvenementController::DeleteEvenementAction',));
+        }
+
         if (0 === strpos($pathinfo, '/log')) {
             if (0 === strpos($pathinfo, '/login')) {
                 // fos_user_security_login

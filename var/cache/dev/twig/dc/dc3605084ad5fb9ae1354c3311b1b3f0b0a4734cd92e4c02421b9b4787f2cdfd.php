@@ -21,29 +21,29 @@ class __TwigTemplate_4e96cdc87919f02f80dc6647889256cddaefad8d17437646fc38b174c3f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_857a213286866c8c0fa499b656bf7facf25afdc36dc65adb6ffa70e8ae2dbdde = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_857a213286866c8c0fa499b656bf7facf25afdc36dc65adb6ffa70e8ae2dbdde->enter($__internal_857a213286866c8c0fa499b656bf7facf25afdc36dc65adb6ffa70e8ae2dbdde_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FrontEndBundle:Club:ClubAccueil.html.twig"));
+        $__internal_97290e8b49af64cb38bce70820487a3dfaf32936215bc57e322c36251d6512d5 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_97290e8b49af64cb38bce70820487a3dfaf32936215bc57e322c36251d6512d5->enter($__internal_97290e8b49af64cb38bce70820487a3dfaf32936215bc57e322c36251d6512d5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FrontEndBundle:Club:ClubAccueil.html.twig"));
 
-        $__internal_6997ca6854fb1a2d95c30e650c2a6ff2d608baec8db95f94eaa3be0373203cdc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6997ca6854fb1a2d95c30e650c2a6ff2d608baec8db95f94eaa3be0373203cdc->enter($__internal_6997ca6854fb1a2d95c30e650c2a6ff2d608baec8db95f94eaa3be0373203cdc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FrontEndBundle:Club:ClubAccueil.html.twig"));
+        $__internal_e7973b4a4f20cc9a39f90b3f7bc3bc705ad8710463b24fac35e2be1097ed1fa9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e7973b4a4f20cc9a39f90b3f7bc3bc705ad8710463b24fac35e2be1097ed1fa9->enter($__internal_e7973b4a4f20cc9a39f90b3f7bc3bc705ad8710463b24fac35e2be1097ed1fa9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FrontEndBundle:Club:ClubAccueil.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_857a213286866c8c0fa499b656bf7facf25afdc36dc65adb6ffa70e8ae2dbdde->leave($__internal_857a213286866c8c0fa499b656bf7facf25afdc36dc65adb6ffa70e8ae2dbdde_prof);
+        $__internal_97290e8b49af64cb38bce70820487a3dfaf32936215bc57e322c36251d6512d5->leave($__internal_97290e8b49af64cb38bce70820487a3dfaf32936215bc57e322c36251d6512d5_prof);
 
         
-        $__internal_6997ca6854fb1a2d95c30e650c2a6ff2d608baec8db95f94eaa3be0373203cdc->leave($__internal_6997ca6854fb1a2d95c30e650c2a6ff2d608baec8db95f94eaa3be0373203cdc_prof);
+        $__internal_e7973b4a4f20cc9a39f90b3f7bc3bc705ad8710463b24fac35e2be1097ed1fa9->leave($__internal_e7973b4a4f20cc9a39f90b3f7bc3bc705ad8710463b24fac35e2be1097ed1fa9_prof);
 
     }
 
     // line 2
     public function block_body($context, array $blocks = array())
     {
-        $__internal_d0a7c928078317f2e776d995186162e2cb1688736f4e2485cb0271a0037ff1ca = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_d0a7c928078317f2e776d995186162e2cb1688736f4e2485cb0271a0037ff1ca->enter($__internal_d0a7c928078317f2e776d995186162e2cb1688736f4e2485cb0271a0037ff1ca_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_c342f307ab75047e2d368ff734f301eaf7d174c8ca873fd08f70029800edcd40 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c342f307ab75047e2d368ff734f301eaf7d174c8ca873fd08f70029800edcd40->enter($__internal_c342f307ab75047e2d368ff734f301eaf7d174c8ca873fd08f70029800edcd40_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_f737deb12e0ab6220cffcff5a56ed6c8bf12b228a5d8cc008aabfd913cfcd3c1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f737deb12e0ab6220cffcff5a56ed6c8bf12b228a5d8cc008aabfd913cfcd3c1->enter($__internal_f737deb12e0ab6220cffcff5a56ed6c8bf12b228a5d8cc008aabfd913cfcd3c1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_0bed1080bda5d50a3d0f4c9c6a336a320a571588caf67e719e81d48fd3e95831 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0bed1080bda5d50a3d0f4c9c6a336a320a571588caf67e719e81d48fd3e95831->enter($__internal_0bed1080bda5d50a3d0f4c9c6a336a320a571588caf67e719e81d48fd3e95831_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 3
         echo "    <section id=\"slider\">
@@ -54,17 +54,23 @@ class __TwigTemplate_4e96cdc87919f02f80dc6647889256cddaefad8d17437646fc38b174c3f
                 <ul class=\"page-title-btn\">
                     <li><a href=\"http://www.codepixar.com/educare/php/01-home-university.php\" target=\"_blank\">Home <i
                                     class=\"fa fa-caret-right\" aria-hidden=\"true\"></i></a></li>
-                    <li><a href=\"#\" class=\"active\">Department List</a></li>
+                    <li><a href=\"#\" class=\"active\">List Club</a></li>
                     </ul>
             </div>
         </div>
     </section>
+
+
+
+
+
+
 ";
         
-        $__internal_f737deb12e0ab6220cffcff5a56ed6c8bf12b228a5d8cc008aabfd913cfcd3c1->leave($__internal_f737deb12e0ab6220cffcff5a56ed6c8bf12b228a5d8cc008aabfd913cfcd3c1_prof);
+        $__internal_0bed1080bda5d50a3d0f4c9c6a336a320a571588caf67e719e81d48fd3e95831->leave($__internal_0bed1080bda5d50a3d0f4c9c6a336a320a571588caf67e719e81d48fd3e95831_prof);
 
         
-        $__internal_d0a7c928078317f2e776d995186162e2cb1688736f4e2485cb0271a0037ff1ca->leave($__internal_d0a7c928078317f2e776d995186162e2cb1688736f4e2485cb0271a0037ff1ca_prof);
+        $__internal_c342f307ab75047e2d368ff734f301eaf7d174c8ca873fd08f70029800edcd40->leave($__internal_c342f307ab75047e2d368ff734f301eaf7d174c8ca873fd08f70029800edcd40_prof);
 
     }
 
@@ -103,11 +109,17 @@ class __TwigTemplate_4e96cdc87919f02f80dc6647889256cddaefad8d17437646fc38b174c3f
                 <ul class=\"page-title-btn\">
                     <li><a href=\"http://www.codepixar.com/educare/php/01-home-university.php\" target=\"_blank\">Home <i
                                     class=\"fa fa-caret-right\" aria-hidden=\"true\"></i></a></li>
-                    <li><a href=\"#\" class=\"active\">Department List</a></li>
+                    <li><a href=\"#\" class=\"active\">List Club</a></li>
                     </ul>
             </div>
         </div>
     </section>
+
+
+
+
+
+
 {% endblock body %}", "FrontEndBundle:Club:ClubAccueil.html.twig", "C:\\xampp\\htdocs\\www\\Esprit4All_Symfony\\src\\FrontEndBundle/Resources/views/Club/ClubAccueil.html.twig");
     }
 }
